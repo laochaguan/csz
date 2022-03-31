@@ -1,0 +1,42 @@
+{
+  "name": "nomiscz/flarum-ext-auth-wechat",
+  "description": "Allow users to log in with WeChat",
+  "keywords": [
+    "flarum",
+    "authentication",
+    "wechat"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0.0",
+    "laravel/helpers": "^v1.4.1",
+    "fof/components": "^1.0.0",
+    "nomiscz/oauth2-wechat": "^0.1.1"
+  },
+  "authors": [
+    {
+      "name": "NomisCZ",
+      "email": "nomiscz@outlook.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "NomisCZ\\WeChatAuth\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "NomisCZ WeChat Login",
+      "icon": {
+        "name": "fab fa-weixin",
+        "backgroundColor": "#51c332",
+        "color": "#fff"
+      }
+    },
+    "flagrow": {
+      "discuss": "https://discuss.flarum.org/d/22888-wechat-auth"
+    }
+  }
+}

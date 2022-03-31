@@ -1,0 +1,56 @@
+{
+    "name": "flarum/flarum",
+    "description": "Delightfully simple forum software.",
+    "type": "project",
+    "keywords": [
+        "forum",
+        "discussion"
+    ],
+    "homepage": "https://flarum.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flarum",
+            "email": "info@flarum.org",
+            "homepage": "https://flarum.org/team"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flarum/core/issues",
+        "source": "https://github.com/flarum/flarum",
+        "docs": "https://docs.flarum.org/"
+    },
+    "require": {
+        "flarum-lang/chinese-simplified": "v1.1.1.1220",
+        "flarum/approval": "*",
+        "flarum/bbcode": "*",
+        "flarum/core": "^1.2",
+        "flarum/emoji": "*",
+        "flarum/flags": "*",
+        "flarum/lang-english": "*",
+        "flarum/likes": "*",
+        "flarum/lock": "*",
+        "flarum/markdown": "*",
+        "flarum/mentions": "*",
+        "flarum/nicknames": "*",
+        "flarum/pusher": "*",
+        "flarum/statistics": "*",
+        "flarum/sticky": "*",
+        "flarum/subscriptions": "*",
+        "flarum/suspend": "*",
+        "flarum/tags": "*",
+        "fof/upload": "^1.1",
+        "malago/flarum-ext-fancybox": "^0.3.0",
+        "nomiscz/flarum-ext-auth-wechat": "^1.0",
+        "whydesd/reply-to-see": "^1.1",
+        "zerosonesfun/elint": "^3.4"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "repositories": [{
+            "type": "path",
+            "url": "packages/*"
+        }]
+}

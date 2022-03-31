@@ -1,0 +1,3 @@
+location /{ 
+rewrite ^(.*)/equip(d+).html$ $1/index.php?m=content&c=index&a=lists&catid=$2 last; 
+} 
